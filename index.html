@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,16 +12,99 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- font awesome icon cdn -->
+  <script src="https://kit.fontawesome.com/3e5584687c.js" crossorigin="anonymous"></script>
   <style>
-    .manrope-font{
+    .manrope-font {
       font-family: "Manrope", sans-serif;
     }
   </style>
 </head>
+
 <body class="manrope-font">
   <!-- Header Section -->
   <header>
-    <h1 class="text-5xl">Hey i am a house designer</h1>
+    <!-- navbar -->
+    <nav class="flex items-center justify-between px-6 py-4 bg-white shadow-md">
+      <!-- logo -->
+      <div class="flex items-center space-x-2">
+        <div class="bg-[#ABEF5F] rounded-full p-2">
+          <img src="" alt="">
+        </div>
+        <div class="text-lg font-semibold text-gray-800">Rinterio</div>
+      </div>
+      <!-- links -->
+       <div class="hidden md:flex space-x-8">
+        <a class="text-grey-800" href=""></a>
+        <a class="text-grey-800" href=""></a>
+        <a class="text-grey-800" href=""></a>
+        <a class="text-grey-800" href=""></a>
+        <a class="text-grey-800" href=""></a>
+       </div>
+       <!-- icons and button -->
+        <div class="flex items-center space-x-4">
+          <!-- search icon -->
+           <button class="text-gray-800">
+            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+              <defs>
+              </defs>
+              <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+                <path d="M 89.414 86.586 L 62.862 60.034 c 5.931 -6.612 9.178 -15.063 9.178 -24.014 c 0 -9.622 -3.747 -18.667 -10.551 -25.47 C 54.687 3.747 45.641 0 36.02 0 c -9.622 0 -18.667 3.747 -25.47 10.55 C 3.747 17.353 0 26.398 0 36.02 c 0 9.621 3.747 18.667 10.55 25.469 c 6.803 6.804 15.848 10.551 25.47 10.551 c 8.951 0 17.402 -3.247 24.014 -9.178 l 26.552 26.552 C 86.977 89.805 87.488 90 88 90 s 1.023 -0.195 1.414 -0.586 C 90.195 88.633 90.195 87.367 89.414 86.586 z M 13.378 58.661 C 7.331 52.613 4 44.573 4 36.02 c 0 -8.553 3.331 -16.594 9.378 -22.642 S 27.467 4 36.02 4 c 8.553 0 16.593 3.331 22.641 9.378 S 68.04 27.467 68.04 36.02 c 0 8.553 -3.331 16.593 -9.379 22.641 S 44.573 68.04 36.02 68.04 C 27.467 68.04 19.426 64.709 13.378 58.661 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+              </g>
+              </svg>
+           </button>
+           <!-- card icon -->
+            <button class="text-gray-800">
+              <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+                <defs>
+                </defs>
+                <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+                  <path d="M 89.138 21.425 c -0.824 -1.103 -2.087 -1.736 -3.464 -1.736 H 17.129 l -0.886 -3.413 c -0.704 -2.713 -3.153 -4.607 -5.956 -4.607 H 1 c -0.552 0 -1 0.448 -1 1 c 0 0.552 0.448 1 1 1 h 9.287 c 1.892 0 3.545 1.279 4.021 3.11 l 11.165 42.995 c 0.114 0.441 0.512 0.749 0.968 0.749 h 52.201 c 0.553 0 1 -0.447 1 -1 s -0.447 -1 -1 -1 H 27.214 l -2.398 -9.232 h 53.3 c 2.704 0 5.128 -1.812 5.894 -4.404 l 5.809 -19.649 C 90.21 23.918 89.961 22.528 89.138 21.425 z M 87.901 24.671 l -5.809 19.649 c -0.518 1.75 -2.152 2.972 -3.977 2.972 H 24.297 l -6.649 -25.602 h 68.025 c 0.74 0 1.418 0.34 1.861 0.933 C 87.977 23.215 88.111 23.961 87.901 24.671 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                  <path d="M 35.47 78.331 c -3.762 0 -6.822 -3.061 -6.822 -6.822 s 3.061 -6.822 6.822 -6.822 c 3.762 0 6.823 3.061 6.823 6.822 S 39.232 78.331 35.47 78.331 z M 35.47 66.686 c -2.659 0 -4.822 2.163 -4.822 4.822 c 0 2.659 2.163 4.822 4.822 4.822 s 4.823 -2.163 4.823 -4.822 C 40.293 68.849 38.129 66.686 35.47 66.686 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                  <path d="M 68.27 78.331 c -3.762 0 -6.822 -3.061 -6.822 -6.822 s 3.061 -6.822 6.822 -6.822 c 3.763 0 6.823 3.061 6.823 6.822 S 72.032 78.331 68.27 78.331 z M 68.27 66.686 c -2.659 0 -4.822 2.163 -4.822 4.822 c 0 2.659 2.163 4.822 4.822 4.822 c 2.659 0 4.823 -2.163 4.823 -4.822 C 73.093 68.849 70.929 66.686 68.27 66.686 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                </g>
+                </svg>
+            </button>
+
+            <!-- book consult button -->
+             <a class="flex"  href="">
+              book consult
+              <svg class="w-6 h-6 bg-[#1C1C1C] text-[#FFFFFF]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+                <defs>
+                </defs>
+                <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+                  <path d="M 59.51 10.921 c -0.63 0.537 -0.708 1.483 -0.171 2.114 L 85.255 43.5 H 1.5 C 0.671 43.5 0 44.171 0 45 s 0.671 1.5 1.5 1.5 h 83.755 L 59.339 76.965 c -0.536 0.63 -0.461 1.577 0.171 2.114 c 0.631 0.537 1.577 0.46 2.114 -0.17 l 28.019 -32.938 c 0.014 -0.016 0.019 -0.038 0.032 -0.054 c 0.07 -0.09 0.138 -0.182 0.187 -0.288 c 0.012 -0.026 0.016 -0.053 0.026 -0.079 c 0.013 -0.032 0.022 -0.063 0.032 -0.095 C 89.968 45.306 90 45.153 90 45 c 0 0 0 0 0 0 s 0 0 0 0 c 0 -0.153 -0.032 -0.306 -0.08 -0.455 c -0.01 -0.032 -0.019 -0.063 -0.032 -0.094 c -0.01 -0.026 -0.015 -0.053 -0.027 -0.079 c -0.049 -0.106 -0.117 -0.198 -0.187 -0.288 c -0.013 -0.017 -0.018 -0.038 -0.032 -0.054 L 61.624 11.092 C 61.087 10.461 60.141 10.384 59.51 10.921 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                </g>
+                </svg>
+             </a>
+        </div>
+    </nav>
+    <!-- banner section -->
+     <div class="border border-red-500 max-w-screen-xl h-[700px] mx-auto">
+      <!-- image content -->
+      <div class="mx-auto w-[600px]">
+        <img src="./assets/banner.png" alt="">
+      </div>
+      <!-- text content -->
+       <div>
+        <h1 class="font-extrabold text-6xl">A barn house of this design has a striking appearance</h1>
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <button class="flex gap-2">
+          view details
+          <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+            <defs>
+            </defs>
+            <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+              <path d="M 59.51 10.921 c -0.63 0.537 -0.708 1.483 -0.171 2.114 L 85.255 43.5 H 1.5 C 0.671 43.5 0 44.171 0 45 s 0.671 1.5 1.5 1.5 h 83.755 L 59.339 76.965 c -0.536 0.63 -0.461 1.577 0.171 2.114 c 0.631 0.537 1.577 0.46 2.114 -0.17 l 28.019 -32.938 c 0.014 -0.016 0.019 -0.038 0.032 -0.054 c 0.07 -0.09 0.138 -0.182 0.187 -0.288 c 0.012 -0.026 0.016 -0.053 0.026 -0.079 c 0.013 -0.032 0.022 -0.063 0.032 -0.095 C 89.968 45.306 90 45.153 90 45 c 0 0 0 0 0 0 s 0 0 0 0 c 0 -0.153 -0.032 -0.306 -0.08 -0.455 c -0.01 -0.032 -0.019 -0.063 -0.032 -0.094 c -0.01 -0.026 -0.015 -0.053 -0.027 -0.079 c -0.049 -0.106 -0.117 -0.198 -0.187 -0.288 c -0.013 -0.017 -0.018 -0.038 -0.032 -0.054 L 61.624 11.092 C 61.087 10.461 60.141 10.384 59.51 10.921 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+            </g>
+            </svg>
+        </button>
+       </div>
+     </div>
   </header>
   <!-- Main Section -->
   <main>
