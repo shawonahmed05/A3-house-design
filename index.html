@@ -23,8 +23,8 @@
 
 <body class="manrope-font bg-[#f4f4f4]">
   <!-- header Section -->
-  <header class="border w-full h-[960px] bg-gradient-to-r from-white to-slate-200 ]">
-    <nav class="flex items-center text-center justify-between container mx-auto w-[1240px] mt-14">
+  <header class="w-full h-[960px] bg-gradient-to-r from-white to-slate-200 ]">
+    <nav class="flex items-center text-center justify-between container mx-auto w-[1240px] py-10">
       <div class="flex items-center gap-2">
         <div class="w-[28px] h-[28px] bg-[#ABEF5F] rounded-full text-center"><i
             class="fa-solid fa-arrow-right -rotate-45"></i></div>
@@ -72,9 +72,9 @@
   <!-- Main Section -->
   <main>
     <!-- Design Related Section -->
-    <section class="w-[1240px] h-[562px] border flex gap-20 container mx-auto mt-24">
+    <section class="w-[1240px] h-[562px] flex gap-20 container mx-auto mt-24">
       <!-- Text Content -->
-      <div class="w-[600px] h-[562px] border">
+      <div class="w-[600px] h-[562px]">
         <!-- main design text -->
         <div class="w-[240px]">
           <Button class="w-[127px] h-[38px] bg-[#FFFFFF]">
@@ -87,13 +87,13 @@
             modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
         <!-- commercial content -->
-        <div class="bg-[#FFFFFF] h-[136px] flex mt-6 p-6 gap-6">
+        <div class="bg-[#FFFFFF] h-[136px] flex mt-14 p-6 gap-6">
           <!-- icon content -->
           <div>
             <img src="./assets/commercial.png" alt="">
           </div>
           <!-- text content -->
-          <div class="w-[308px] border">
+          <div class="w-[308px]">
             <h3 class="font-extrabold text-[20px]">Commercial</h3>
             <p class="font-medium text-[#737373]">The barn house captivates with its blend of rustic charm and modern.
             </p>
@@ -106,7 +106,7 @@
             <img src="./assets/residential.png" alt="">
           </div>
           <!-- text content -->
-          <div class="w-[308px] border">
+          <div class="w-[308px]">
             <h3 class="font-extrabold text-[20px]">Commercial</h3>
             <p class="font-medium text-[#737373]">The barn house captivates with its blend of rustic charm and modern.
             </p>
@@ -121,12 +121,13 @@
 
 
     <!-- Work Process Section -->
-    <section class="w-[1240px] h-[405px] border border-blue-500 container mx-auto mt-24">
+    <section class="w-[1240px] h-[405px] container mx-auto mt-24">
       <p class="text-center font-bold"><a href="">
-        <i class="fa-solid fa-arrow-right mr-1"></i>
-        How we works</a></p>
+          <i class="fa-solid fa-arrow-right mr-1"></i>
+          How we works</a></p>
       <h1 class="text-center font-extrabold text-4xl mt-4">Our Works Process</h1>
-      <p class="w-[678px] text-center mt-6 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication,
+      <p class="w-[678px] text-center mt-6 mx-auto">The barn house captivates with its blend of rustic charm and modern
+        sophistication,
         featuring weathered wood, sleek metal accents.</p>
       <div class="flex gap-6 mt-8">
         <!-- card 1 -->
@@ -155,10 +156,59 @@
         </div>
       </div>
     </section>
+
+    <!-- Discuss project section -->
+     <section class="w-full h-[951px]  bg-cover mt-24 py-24 px-52 border-8 border-[#FFFFFF]" style="background-image: url(./assets/bg.jpg); background-repeat: no-repeat;">
+     <div class="text-center">
+      <p><a class="w-48 h-14 flex items-center mx-auto justify-center font-bold text-xl bg-[#ABEF5F33] rounded-full" href="">
+        <i class="fa-solid fa-arrow-right mr-1"></i>
+        Let's Connect</a></p>
+      <h1 class="font-extrabold text-5xl mt-6">Let’s Discuss Next Project</h1>
+      <p class="font-medium text-xl text-[#494949] mt-6">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+     </div>
+     <!-- input content -->
+      <form class="w-full space-y-7 mt-8">
+        <div class="flex space-x-5">
+          <input class="w-full p-6 border border-grey-300 rounded-full" type="text" name="First Name" id="" placeholder="First Name*">
+          <input class="w-full p-6 border border-grey-300 rounded-full" type="text" name="Last Name" id="" placeholder="Last Name*">
+        </div>
+        <div class="flex space-x-5">
+          <input class="w-full p-6 border border-grey-300 rounded-full" type="number" name="Phone Number" id=""
+          placeholder="Phone Number*">
+          <input class="w-full p-6 border border-grey-300 rounded-full" type="email" name="Email Number" id=""
+          placeholder="Email Number*">
+        </div>
+        <textarea class="w-full p-6 border border-grey-300 rounded-[32px] h-60" name="Massage here" id="" placeholder="Write your massage here"></textarea>
+        <button class="w-full h-14 flex items-center justify-center font-extrabold rounded-full text-xl gap-2 bg-[#ABEF5F] py-3 px-3" type="submit">
+          Send Mail
+          <div class="w-[28px] h-[28px] bg-black text-white rounded-full text-center"><i
+            class="fa-solid fa-arrow-right -rotate-45"></i></div>
+        </button>
+      </form>
+     </section>
   </main>
   <!-- footer Section -->
-  <footer>
-
+  <footer class="w-full h-[486px] bg-[#1C1C1C] text-white">
+    <div class="flex mx-auto pt-28 w-[167px] h-[44px] gap-2 items-center">
+      <div class="w-[28px] h-[28px] bg-[#ABEF5F] rounded-full text-center"><i
+        class="fa-solid fa-arrow-right -rotate-45 text-black"></i></div>
+        <div><h1 class="font-extrabold text-3xl">Rinterio</h1></div>
+    </div>
+    <p class="text-[#737373] font-medium w-[678px] mx-auto text-center mt-9">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,
+      sleek metal accents.</p>
+    <div class="flex w-[776px] mx-auto justify-between mt-12">
+      <a href="">Home</a>
+      <a href="">Services</a>
+      <a href="">Portfolio</a>
+      <a href="">Blogs</a>
+      <a href="">Contact Us</a>
+    </div>
+    <button
+      class="w-[212px] h-[56px] items-center justify-center rounded-full flex gap-2 bg-[#ABEF5F] text-black font-extrabold text-xl mx-auto mt-12">
+      Book Consult
+      <div class="w-[28px] h-[28px] bg-black text-white rounded-full text-center"><i
+          class="fa-solid fa-arrow-right -rotate-45"></i></div>
+    </button>
   </footer>
 </body>
 
